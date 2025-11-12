@@ -1,27 +1,12 @@
-# Wound Area Location Prediction
-
-Machine learning models for predicting wound locations in animal model images using Random Forest and XGBoost.
-
 ## Overview
 
-Predicts bounding box coordinates (x, y, width, height) of wound areas in images using regression models.
+Predicts bounding box coordinates (x, y, width, height) of wound areas in images using Random Forest and XGBoost.
 
 ## Models
 
 - **Random Forest**: 100 estimators with label normalization
 - **XGBoost**: 100 rounds with 5x data augmentation
 
-## Usage
-
-```bash
-# Training
-python train_rf.py
-python train_xgboost.py
-
-# Testing
-python test_rf.py
-python test_xgboost.py
-```
 
 ## Requirements
 
